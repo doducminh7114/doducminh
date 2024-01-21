@@ -58,7 +58,7 @@ a {
 
 /* =========header========== */
 .fix-header {
-  background-color: #fff;
+  background-color: #e6f0ff;
   padding-top: 26px;
   position: sticky;
   top: -26px;
@@ -67,6 +67,7 @@ a {
 
 .hero-warp {
   position: relative;
+  justify-content: center;
   flex-direction: column;
   background: #e6f0ff;
   height: 100vh;
@@ -115,15 +116,11 @@ a {
   border-radius: 8px;
 }
 
-.hero {
-  margin-top: 130px;
-}
-
-.hero .info {
+.hero-warp .info {
   width: 51%;
 }
 
-.hero .sub-title {
+.hero-warp .sub-title {
   color: #687690;
   font-size: 1.8rem;
   font-weight: 500;
@@ -131,7 +128,7 @@ a {
   letter-spacing: 0.01em;
 }
 
-.hero .title {
+.hero-warp .title {
   margin-top: 8px;
   font-weight: 700;
   color: #000336;
@@ -139,14 +136,14 @@ a {
   line-height: 1.19;
 }
 
-.hero .desc {
+.hero-warp .desc {
   color: #5a6473;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.78; /* 177.778% */
 }
 
-.hero .hero-cta {
+.hero-warp .hero-cta {
   min-width: 170px;
   margin-top: 40px;
   color: #fff;
